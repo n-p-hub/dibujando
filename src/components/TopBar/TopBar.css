@@ -1,0 +1,49 @@
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #aaa;
+    z-index: 100;
+    background-color: #f8f8f8;
+    display: flex;
+}
+
+#logout:hover, #logout:focus, #logout:active {
+    background-color: #ffe9e9;
+}
+  
+#subir {
+    margin: auto;
+    margin-left: 37%;
+}
+
+#icon {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 0.2%;
+    float: left;
+}
+
+#perfil {
+    background-color: #f8f8f8;
+    padding: 0.9%;
+    border-radius: 45%;
+    margin: 1%;
+}
+
+#derecha {
+    width: 200px;
+    margin: auto;
+    margin-right: 0;
+}
+
+#logo {
+    float: right;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border: 0;
+    background-color: #f8f8f8;
+    margin-top: 0%;
+    cursor: pointer;
+}

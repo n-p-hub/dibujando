@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 0;
+}
+  
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.contenido {
+    width: 60%;
+    margin: auto;
+}
+
+.barra {
+    width: 100%;
+    background-color:#f3ffff;
+    box-shadow: 0 4px 4px rgba(0,0,0,.12);
+    border: 0.5px solid rgba(0,0,0,.12);
+    border-radius: 7px;
+    outline: none;
+    padding: 1%;
+    max-height: 90px;
+}
+
+.publicacion {
+    width: 100%;
+    display: flex;
+}
+
+#archivo {
+    width: 250px;
+    display: flex;
+}
+
+#upload {
+    width: 50%;
+    margin: 0;
+}
+
+#titulo {
+    font-size: 20px;
+    font-family: inherit;
+}
+
+#boton {
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+#botonfalso {
+    width: 155px;
+    background-color:#f3ffff;
+    box-shadow: 0 4px 4px rgba(0,0,0,.12);
+    border: 0.5px solid rgba(0,0,0,.12);
+}
+
+#botonfalso:hover {
+    background-color:rgb(235, 255, 251);
+}
+
+#icono {
+    align-content: center;
+    margin: auto;
+}
+
+#descripcion {
+    width: 100%;
+    padding-left: 1%;
+}
+
+#categoria {
+    align-content: center;
+    padding-right: 1%;
+    padding-left: 2%;
+}
+
+#cat {
+    background-color:#f3ffff;
+    box-shadow: 0 4px 4px rgba(0,0,0,.12);
+    border: 0.5px solid rgba(0,0,0,.12);
+}

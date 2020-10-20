@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+}
+
+html, #root, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.TituloPrincipal {
+  font-size: 65px;
+  font-family: inherit;
+  color: rgb(66, 66, 66);
+  align-items: center;
+  text-align: center;
+  margin-top: -10%;
+  margin-bottom: -10%;
+}
+
+.fina {
+  font-weight: lighter;
+}
+
+.arriba {
+  position: relative;
+  left: 0;
+  z-index: 5;
+}
+
+.abajo {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: stretch;
+  align-content: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  margin-top: 15%;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.container > div {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.cuadrado {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  border: 1px solid;
+  margin-bottom: 2em;
+  box-shadow: 1px 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.cuadrado:hover, .cuadrado:focus, .cuadrado:active{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.cuadrado a {
+  width: 200px;
+  height: 200px;
+}
+
+.vistapreviaej {
+  background-color: #f8f8f8;
+  width: 200px;
+  height: 200px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.opcion {
+  position: relative;
+  flex-direction: row;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(66, 66, 66);
+  font-family: inherit;
+}
+
+.botones {
+  color: #363636;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  background-color:#f3ffff;
+  transition: background-color 0.5s;
+  font-weight: lighter;
+  box-shadow: 0 4px 4px rgba(0,0,0,.12);
+}
+
+.botones:hover, .botones:focus, .botones:active{
+  background-color:rgb(235, 255, 251);
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+#crear {
+  padding: 3% !important;
+  font-size: 15px;
+  width: 100px;
+}
+
+#limitador {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.ingresar {
+  padding: 5%;
+  background-color: rgb(226, 226, 226);
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}

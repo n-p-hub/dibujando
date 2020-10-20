@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    margin: auto;
+    margin-top: -5%;
+  }
+
+.subtitulo {
+  color: #363636;
+}
+
+#tituloperfil {
+  font-size: 50px;
+  color: hsl(0, 0%, 21%);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#guardado {
+  display: flex;
+  justify-content: center;
+}
+
+#otros {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  margin-top: 4%;
+}
+
+#guardar:hover, #guardar:focus, #guardar:active {
+  background-color: #fff6a3;
+  transition: background-color 0.5s;
+}
+
+#borrar {
+  margin-left: 4%;
+  background-color: #ffb8b8;
+}
+
+#borrar:hover, #borrar:focus, #borrar:active {
+  background-color: rgb(255, 125, 132);
+  transition: background-color 0.5s;
+}

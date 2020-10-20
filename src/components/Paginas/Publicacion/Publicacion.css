@@ -1,0 +1,37 @@
+#contenedorpublicacion {
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    padding: 4%;
+}
+
+#puntuacion {
+    width: 65%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.deshabilitado {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    background-color:#cccccc;
+    font-weight: lighter;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+#puntuar {
+    margin-left: 2%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#puntua {
+    float: right;
+    float: bottom;
+    width: 27%;
+}
